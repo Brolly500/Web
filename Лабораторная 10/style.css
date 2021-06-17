@@ -1,0 +1,142 @@
+body {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+  margin: 5px 5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  padding: 2.5em;
+  width: 10%;
+}
+
+.comment {
+  margin: 2% 30%;
+  padding: 2em;
+  background-color: blue;
+}
+
+.rightmenu {
+  padding: 200px 0px;
+  block-size: auto;
+  width: fit-content;
+}
+
+.rightmenu ul {
+  background-color: blue;
+  padding: 0.5em;
+}
+
+.rightmenu a {
+  display: block;
+  padding: 1em;
+  margin: 0.5em;
+  background-color: blue;
+  color: white;
+}
+
+.rightmenu a:hover {
+  background-color: lightgray;
+}
+
+nav.level {
+  background: blue;
+}
+
+nav.level ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.level ul {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav.level a {
+  text-decoration: none;
+  display: block;
+}
+
+.topmenu > li {
+  float: left;
+  position: relative;
+}
+
+.topmenu > li > a {
+  padding: 20px 30px;
+  color: #fff;
+}
+
+.topmenu > li > a.active {
+  color: #fff;
+}
+
+.topmenu a:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+.submenu {
+  position: absolute;
+  min-width: 217px;
+  background: gray;
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+}
+
+.submenu li {
+  position: relative;
+}
+
+.submenu li a {
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+}
+
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+}
+
+.links{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.links a{
+  color: black;
+}
+
+.playerButton{
+	fill:#ed8726;
+	fill-opacity:1;
+	stroke:#ed8726;
+	stroke-width:1px;
+	stroke-linecap:butt;
+	stroke-linejoin:miter;
+	stroke-opacity:1;
+}
+
+.playerButton:hover{
+	fill:#2c302f;
+}

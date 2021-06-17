@@ -1,0 +1,41 @@
+@use "colors" as c;
+* {
+  padding: 100;
+  margin: 100;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.container {
+  color: white;
+  margin: 2%;
+  margin: 5% 25%;
+}
+
+.container:hover {
+  border: 2px white solid;
+  background-color: lightgreen;
+  color: blue;
+}
+
+.container-title {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.block {
+  display: block;
+  color: green;
+  border: 2px white solid;
+  background-color: yellow;
+}
+
+.block {
+  border-color: silver;
+  border-style: dashed;
+  margin: 2% 25%;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
