@@ -1,0 +1,153 @@
+.d-all {
+	background-color: #000000;
+	transition: .4s;
+}
+
+.d-header__title {
+	color: #ebebeb;
+	transition: .4s;
+}
+
+.d-wrap-theme__label {
+	color: #ebebeb;
+	transition: .4s;
+}
+
+.wrap-theme__mode .active {
+	transform: translateX(calc(100% + 4px));
+	transition: .4s;
+	background-color: #ebebeb;
+}
+
+.d-wrap-theme__mode {
+	background: lightgreen;
+	color: #fff;
+	box-shadow: 0 0 10px 5px lightgreen;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.d-box {
+	box-shadow: inset 1px 1px 10px 5px lightgray, 1px 1px 10px 5px lightgray;
+	border: 2px solid lightgray;
+	color: #08e8de;
+	transition: .4s;
+}
+
+.d-add__label {
+	color: white;
+	transition: .4s;
+}
+
+.d-add__input {
+	border: 2px solid lightgray;
+	box-shadow: inset 1px 1px 5px 1px lightgray, 1px 1px 5px 1px lightgray;
+	color: #000000;
+	transition: .4s;
+	background: white;
+}
+
+.d-add__input:disabled {
+	background: lightgreen52;
+	border: 2px solid lightgray52;
+	box-shadow: inset 1px 1px 5px 1px lightgray52, 1px 1px 5px 1px lightgray52;
+	color: #000000ab;
+}
+
+.d-add__input::placeholder {
+	color: gray;
+}
+
+.d-add__btn {
+	background: lightgreen;
+	transition: .4s;
+}
+
+.d-add__button-on,
+.d-add__button-off {
+	border: 2px solid lightgreen;
+	background: lightgreen;
+	transition: .4s;
+}
+
+.d-add__button-on:hover span,
+.d-add__button-on:hover span::after,
+.d-add__button-off:hover span,
+.d-add__button-off:hover span::after {
+	background: #3da1ff;
+}
+
+.d-wrap-modal {
+	background: #fffeffad;
+	transition: .4s;
+}
+
+.d-wrap-modal__form {
+	background: rgb(142 135 135);
+	border: solid black;
+	transition: .4s;
+	box-shadow: 1px 1px 10px 5px lightgray;
+	border-radius: 20px;
+}
+
+.d-wrap-modal__input {
+	color: white;
+	transition: .4s;
+}
+
+.d-wrap-modal__input select {
+	background-image: url(../img/d-down-arrow.svg);
+}
+
+.d-task {
+	background: lightgray3f;
+	transition: .4s;
+}
+
+.d-task__title {
+	color: black;
+	transition: .4s;
+}
+
+.d-task__desc {
+	color: #f0f0f0;
+	transition: .4s;
+}
+
+.d-svg-edit,
+.d-svg-complite,
+.d-svg-del {
+	transition: .4s;
+}
+
+.d-footer {
+	background-color: #000000;
+	color: #ebebeb;
+	transition: .4s;
+}
+
+.d-svg-edit path {
+	fill: lightgreen;
+}
+
+.d-svg-complite path {
+	fill: lightgreen;
+}
+
+.d-svg-del path {
+	fill: lightgreen;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+	opacity: 0;
+}
